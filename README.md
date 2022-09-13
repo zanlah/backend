@@ -1,5 +1,5 @@
 # ideje-za-kosilo-api
-Enostaven API, za pridobivanje idej o kosilu.
+Enostaven API, za pridobivanje idej o kosilu v slovenskem jeziku.
 
 ## Source
 
