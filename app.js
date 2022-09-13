@@ -5,7 +5,7 @@ var cors = require("cors");
 
 app.get("/", cors(), function (req, res, next) {
   res.setHeader("Content-Type", "application/json");
-  var trenutna = ideje[between(0, 100)];
+  var trenutna = ideje[between(0, ideje.length)];
   res.end(
     JSON.stringify({ ideja: trenutna, dolzina: trenutna.length }, null, 3)
   );
